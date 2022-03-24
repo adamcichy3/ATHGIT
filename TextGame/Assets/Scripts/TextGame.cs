@@ -12,6 +12,9 @@ public class TextGame : MonoBehaviour
 
     void Update()
     {
-        
+        if (Input.GetKeyDown(KeyCode.Return))
+        {
+            Debug.Log("Wow ale skok");
+        }
     }
 }
